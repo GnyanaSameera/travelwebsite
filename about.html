@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        #header {
+            background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color:whitesmoke;
+        }
+        #gallery {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            border-radius: 20px; /* Set the border radius */
+            overflow: hidden; /* Hide any content that might overflow due to border radius */
+        }
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1487119998088-a65531a3ae5c?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">COMFORTABLE JOURNEY</h5>
+                        <p class="card-text">"Embark on a journey of comfort and discovery with us. From the moment you step aboard, our aim is to make your travel experience seamless and enjoyable. Sit back, relax, and let us take care of the details while you immerse yourself in the wonders that await you. Welcome to a world where every journey is a comfortable adventure."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1628611225398-cd3470b66bee?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">BEST PRICES</h5>
+                        <p class="card-text">"Discover unbeatable deals and savings on your next adventure with us. We're committed to offering you the best prices without compromising on quality or comfort. Whether you're planning a spontaneous getaway or a meticulously planned trip, trust us to provide you with the most competitive prices available."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1596436889106-be35e843f974?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">LUXURIES HOTEL</h5>
+                        <p class="card-text">"Indulge in the epitome of luxury with our handpicked selection of opulent hotels. From lavish suites to personalized service, our collection offers a sanctuary of sophistication and elegance. Pamper yourself with world-class amenities, exquisite dining experiences, and impeccable attention to detail.Create unforgettable memories in the lap of luxury."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
